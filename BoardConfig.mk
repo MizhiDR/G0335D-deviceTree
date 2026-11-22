@@ -148,7 +148,7 @@ TARGET_PROVIDES_KEYMASTER := true
 TARGET_PROVIDES_LIBLIGHT := true
 
 # NFC
-# 硬件不存在（原厂 system 无 nfc HAL），关闭
+# Hardware not present (stock system has no NFC HAL); disabled
 # BOARD_NFC_CHIPSET := pn547
 # TARGET_USES_NQ_NFC := true
 

@@ -198,9 +198,9 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml
 
 # NFC
-# G0335D 原厂 system 内无任何 NFC HAL / 固件文件，硬件不存在。
-# 设备树中的 NFC 配置来自移植基线，其厂商源码（nxp-nfc）与 libnfc-nci 版本不自洽
-# 无法编译，故此处关闭。
+# The G0335D stock system has no NFC HAL or firmware; the hardware is not present.
+# The NFC config here comes from the port baseline; its vendor source (nxp-nfc) is
+# not consistent with this libnfc-nci version and cannot build, so it is disabled.
 # PRODUCT_PACKAGES += \
 #     com.android.nfc_extras \
 #     com.nxp.nfc.nq \

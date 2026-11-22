@@ -191,7 +191,7 @@ lib/modules/ansi_cprng.ko
 lib/modules/br_netfilter.ko
 
 
-# 实机对照组补充（2026-11-02 从 sys_g0335d 核对）
+# Added from on-device cross-check (2026-11-02, verified against sys_g0335d)
 vendor/lib/libchromatix_s5k3p3sm_common.so
 vendor/lib/libchromatix_s5k3p3sm_cpp_liveshot.so
 vendor/lib/libchromatix_s5k3p3sm_cpp_preview.so
